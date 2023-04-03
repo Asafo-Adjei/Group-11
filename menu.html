@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>menu</title>
+	<script src="https://kit.fontawesome.com/0763791f88.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="style/menu.css">
+	<style type="text/css">
+		body{
+	background-image: url(images/food.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+		}
+		.slider{
+    height: 400px;
+    width: 100%;
+    background: url(images/rice.jpg,4.jpg,7.jpg,1p.jpg,2p.jpg,3p.jpg,4p.jpg);
+    border-radius: 0%;
+    animation: slide 10s infinite;
+}
+@keyframes slide{
+    0%{
+        background: url(images/rice.jpg);
+    }
+    20%{
+        background: url(images/4.jpg);
+    }
+    40%{
+        background: url(images/7.jpg);
+    }
+    60%{
+        background: url(images/1p.jpg);
+    }
+
+    80%{
+        background: url(images/2p.jpg);
+    }
+    100%{
+        background: url(images/3p.jpg);
+    }
+    120%{
+        background: url(images/4p.jpg);
+    }
+
+}
+
+	</style>
+</head>
+<body>
+	<div class="menu_bar">
+		<h1 class="logo">Rich<span>Cuisine</h1>
+			<ul>
+				<li><a href="home.html">Home</a></li>
+				<li>
+					<a href="#">Menu<i class="fas fa-caret-down"></i> </a>
+					<div class="dropdown_menu">
+						<ul>
+							<li><a href="service.html">Service</a></li>
+							<li><a href="abouttt.html">About</a></li>
+							<li><a href="#">Team</a></li>
+							<li><a href="#">FAQ</a></li>
+						</ul>
+					</div>
+				</li>
+				<li><a href="signup.html">Sign Up</a></li>
+				<li><a href="login.html">Login</a></li>
+			</ul>
+	</div>
+	 <div class="sub">
+         <div class="slider">
+    </div>
+    <div class="content">
+        <div class="main_section">
+        <section class="table_header">
+        <h1>Menu</h1>   
+        </section>
+        <section class="table_body">
+            <table>
+                <thead>
+                    <tr>
+                        <th> Dish </th>
+                        <th> Discription </th>
+                        <th> Price </th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><img src="images/4.jpg"> Jollof</td>
+                        <td> Jollof rice with fried plantain & chicken </td>
+                        <td><strong> GH₵ 40</strong></td>
+                    </tr>
+                     <tr>
+                        <td><img src="images/jk.jpg"> Waakye</td>
+                        <td> Waakye with fried plantain,salad & egg </td>
+                        <td><strong> GH₵ 25.75</strong></td>
+                    </tr>
+                     <tr>
+                        <td><img src="images/jp.jpg"> Fried Yam</td>
+                        <td> Fried yam with fried fish chicken & gizzard </td>
+                        <td><strong> GH₵ 29.99</strong></td>
+                    </tr>
+                     <tr>
+                        <td><img src="images/9k.jpg"> Gobɛ</td>
+                        <td> Gobɛ with fried plantain & fried fish </td>
+                        <td><strong> GH₵ 25.99</strong></td>
+                    </tr>
+                     <tr>
+                        <td><img src="images/4k.jpg"> Banku </td>
+                        <td> Banku with grind pepper & tilapia </td>
+                        <td><strong> GH₵ 35</strong></td>
+                    </tr>
+                     <tr>
+                        <td><img src="images/2k.jpg"> Ampɛsi</td>
+                        <td> Boiled plantain with koobi,pear,egg, & kontomire stew </td>
+                        <td> <strong>GH₵ 30.50</strong></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        </div>	
+    </div>
+    <div class="search">
+    <div class="container">
+    <form action="https://www.google.com/search" method="get" class="search-bar">
+     <input type="text" placeholder="search anything" name="q">
+    <button type="submit"><img src="images/690150.png"></button>
+     </form>
+     </div>
+    </div>
+          <footer>
+                <div class="footer-content">
+                    <h3>rich<span>Cuisine</h3>
+                               <p id="grace">Gracing you with taste of richness. Heaven can be enjoyed on earth at RichCuisine.</p>
+               <ul class="social">
+
+                <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-google-plus-g"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+            </ul>
+            </div>
+            <div class="footer-bottom">
+                <p>copyright &copy;2023 RichCuisine. design by <span>Group11</span></p>
+            </div>
+
+            
+        </footer>
+
+</body>
+</html>
